@@ -3,7 +3,8 @@ body {
   color: #212121;
 }
 .container {
-  width: 100rem;
+  width: 75rem;
+  margin: 0 12.5rem;
 }
 .logo {
   font-family: Raleway;
@@ -12,7 +13,7 @@ body {
   line-height: 1.19;
   color: #000;
   font-weight: 700;
-  padding-left: 14.19rem;
+  padding-left: 1.7rem;
 }
 .logo .span {
   display: inline-block;
@@ -136,7 +137,7 @@ body {
 }
 .section-address {
   display: flex;
-  padding-right: 14.19rem;
+  padding-right: 1.7rem;
 }
 .header-phone {
   margin-left: 3.125rem;
