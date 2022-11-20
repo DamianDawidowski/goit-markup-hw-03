@@ -48,6 +48,7 @@ p {
   line-height: 1.14;
   font-weight: 500;
   display: block;
+  text-decoration: none;
 }
 .address-mailto_padding {
   padding: 0.5625rem 0;
@@ -141,13 +142,19 @@ p {
   gap: 1.875rem;
   justify-content: space-between;
 }
-.portfolio-li {
-  border: 1px solid #eeeeee;
+.portfolio-section {
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.portfolio-hgroup {
+  padding: 1.25rem 1.5rem;
 }
 .portfolio-h2 {
   font-size: 1.125rem;
   line-height: 2;
   font-weight: 700;
+  padding-bottom: 0.25rem;
 }
 .portfolio-p {
   font-size: 1rem;
@@ -202,6 +209,7 @@ p {
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.14;
+  text-decoration: none;
 }
 .navigation-list {
   display: flex;
@@ -210,13 +218,13 @@ p {
   padding-right: 23.1875rem;
 }
 .navigation-list-portfolio {
-  margin: 0 2.9rem;
+  padding: 0 2.9rem;
 }
 .section-address {
   display: flex;
 }
 .header-phone {
-  margin-left: 3.125rem;
+  padding-left: 3.125rem;
 }
 .buttons {
   display: inline;
@@ -253,4 +261,7 @@ p {
 .address-grey:focus,
 .address-grey:hover {
   color: #2196f3;
+}
+.portfolio-img {
+  margin-bottom: -4px;
 }
