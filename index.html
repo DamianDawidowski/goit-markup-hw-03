@@ -43,12 +43,14 @@
     <main>
       <section class="effsolutions">
         <h1 class="effsolutions-h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button effsolutions-button" type="button">Zamów usługe</button>
+        <section>
+          <button class="button effsolutions-button" type="button">Zamów usługe</button>
+        </section>
       </section>
-      <section class="placeholder">
-        <ul>
+      <section class="section">
+        <ul class="placeholder-ul container">
           <li>
-            <hgroup>
+            <hgroup class="placeholder-hgroup">
               <h2 class="placeholder-h2">LOREM IPSUM</h2>
               <p class="placeholder-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -57,7 +59,7 @@
             </hgroup>
           </li>
           <li>
-            <hgroup>
+            <hgroup class="placeholder-hgroup">
               <h2 class="placeholder-h2">LOREM IPSUM</h2>
               <p class="placeholder-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -66,7 +68,7 @@
             </hgroup>
           </li>
           <li>
-            <hgroup>
+            <hgroup class="placeholder-hgroup">
               <h2 class="placeholder-h2">LOREM IPSUM</h2>
               <p class="placeholder-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -75,7 +77,7 @@
             </hgroup>
           </li>
           <li>
-            <hgroup>
+            <hgroup class="placeholder-hgroup">
               <h2 class="placeholder-h2">LOREM IPSUM</h2>
               <p class="placeholder-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -85,9 +87,9 @@
           </li>
         </ul>
       </section>
-      <section class="ourservices">
+      <section class="container ourservices">
         <h2 class="ourservices-h2">Czym się zajmujemy</h2>
-        <ul>
+        <ul class="ourservices-list">
           <li>
             <img
               src="images/services/programming.jpg"
@@ -114,44 +116,51 @@
           </li>
         </ul>
       </section>
-      <section class="ourteam">
-        <h2 class="ourteam-h2">Nasz zespół</h2>
-        <ul>
-          <li>
-            <img src="images/team/teamFirst.jpg" alt="John Doe" width="810" height="780" />
-            <div class="outeam-div1">John Doe</div>
-            <div class="outeam-div2">Product Designer</div>
-          </li>
-          <li>
-            <img src="images/team/teamSecond.jpg" alt="John Doe" width="810" height="780" />
-            <div class="outeam-div1">John Doe</div>
-            <div class="outeam-div2">Frontend Developer</div>
-          </li>
-          <li>
-            <img src="images/team/teamThird.jpg" alt="John Doe" width="810" height="780" />
-            <div class="outeam-div1">John Doe</div>
-            <div class="outeam-div2">Marketing</div>
-          </li>
-          <li>
-            <img src="images/team/teamFourth.jpg" alt="John Doe" width="810" height="780" />
-            <div class="outeam-div1">John Doe</div>
-            <div class="outeam-div2">UI Designer</div>
-          </li>
-        </ul>
+      <section class="container ourteam section">
+        <div class="ourteam-div">
+          <h2 class="ourteam-h2">Nasz zespół</h2>
+          <ul class="ourteam-ul">
+            <li class="ourteam-li">
+              <img src="images/team/teamFirst.jpg" alt="John Doe" width="270" height="260" />
+              <div class="outeam-div1">John Doe</div>
+              <div class="outeam-div2">Product Designer</div>
+            </li>
+            <li class="ourteam-li">
+              <img src="images/team/teamSecond.jpg" alt="John Doe" width="270" height="260" />
+              <div class="outeam-div1">John Doe</div>
+              <div class="outeam-div2">Frontend Developer</div>
+            </li>
+            <li class="ourteam-li">
+              <img src="images/team/teamThird.jpg" alt="John Doe" width="270" height="260" />
+              <div class="outeam-div1">John Doe</div>
+              <div class="outeam-div2">Marketing</div>
+            </li>
+            <li class="ourteam-li">
+              <img src="images/team/teamFourth.jpg" alt="John Doe" width="270" height="260" />
+              <div class="outeam-div1">John Doe</div>
+              <div class="outeam-div2">UI Designer</div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="#">
-        <p class="logo logo-web">Web</p>
-        <p class="logo logo-studio">Studio</p>
-      </a>
-      <address>
-        <div class="highlight address address-white">m. Warszawa, Aleje Jerozolimskie 21</div>
-        <a class="highlight address address-grey" href="mailto:info@example.com">
-          info@example.com
+      <div class="container footer-div">
+        <a class="logo logo_bottom" href="#">
+          <span class="logo-web span">Web</span>
+          <span class="span logo-white">Studio</span>
         </a>
-        <a class="highlight address address-grey" href="tel:+48111111111">+48 111 111 111</a>
-      </address>
+        <address>
+          <div class="highlight address address-white">m. Warszawa, Aleje Jerozolimskie 21</div>
+          <a
+            class="highlight address address-grey address-mailto_padding"
+            href="mailto:info@example.com"
+          >
+            info@example.com
+          </a>
+          <a class="highlight address address-grey" href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
