@@ -7,6 +7,7 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+h1,
 h2,
 p {
   margin: 0;
@@ -68,6 +69,7 @@ p {
   color: #fff;
   width: 43.5rem;
   text-transform: uppercase;
+  padding-bottom: 1.875rem;
 }
 .effsolutions-button {
   display: block;
@@ -76,10 +78,10 @@ p {
   color: #fff;
   background-color: #2196f3;
   font-weight: 700;
-  margin-top: 1.875rem;
   box-shadow: 0px 0.25re 0.25re #000026;
   border-radius: 0.25rem;
   width: 12.4375rem;
+  padding: 0.625rem 0;
 }
 .placeholder-ul {
   display: flex;
@@ -119,13 +121,28 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 12.5rem;
+  padding: 0 12.5rem;
+  border-bottom: 1px solid #ececec;
+  width: 100rem;
 }
 .button {
   cursor: pointer;
 }
 .buttons .button:hover {
   color: #fff;
+  background-color: #2196f3;
+}
+.filters {
+  margin: 0 12.5rem;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+  justify-content: space-between;
+}
+.portfolio-li {
+  border: 1px solid #eeeeee;
 }
 .portfolio-h2 {
   font-size: 1.125rem;
@@ -203,11 +220,16 @@ p {
 }
 .buttons {
   display: inline;
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 19.375rem;
+  padding-bottom: 2.125rem;
 }
 .buttons .button {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.625;
+  padding: 0.375rem 1.375rem;
 }
 .footer-div {
   margin: 0 12.5rem;
