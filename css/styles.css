@@ -117,6 +117,9 @@ p {
   color: #2196f3;
 }
 .header {
+  width: 100%;
+}
+.header-div {
   background-color: #fff;
   height: 5rem;
   display: flex;
