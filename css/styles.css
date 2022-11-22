@@ -1,11 +1,20 @@
+:root {
+  --color-grey1: #eeeeee;
+  --color-grey2: #757575;
+  --color-grey3: #2f303a;
+  --color-blue: #2196f3;
+  --color-black: #212121;
+  --color-black2: #0000001f;
+  --color-white: #fff;
+  --color-white2: #f5f4fa;
+}
+
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--color-black);
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
@@ -24,12 +33,11 @@ ul {
 }
 
 .section-solutions-background {
-  background-color: #2f303a;
+  background-color: var(--color-grey3);
 }
 
 .logo {
   font-family: Raleway;
-  display: inline-block;
   font-size: 0;
   line-height: 1.19;
   color: #000;
@@ -46,7 +54,7 @@ ul {
 }
 
 .logo-white {
-  color: #fff;
+  color: var(--color-white);
 }
 
 .span {
@@ -54,7 +62,7 @@ ul {
 }
 
 .address {
-  color: #757575;
+  color: var(--color-grey2);
   font-size: 0.875rem;
   line-height: 1.14;
   font-weight: 500;
@@ -78,7 +86,7 @@ ul {
 }
 
 .effsolutions-div {
-  background-color: #2f303a;
+  background-color: var(--color-grey3);
   width: 100%;
 }
 
@@ -86,7 +94,7 @@ ul {
   font-size: 2.75rem;
   line-height: 1.36;
   font-weight: 900;
-  color: #fff;
+  color: var(--color-white);
   width: 43.5rem;
   text-transform: uppercase;
   padding-bottom: 1.875rem;
@@ -96,11 +104,12 @@ ul {
   display: block;
   font-size: 1rem;
   line-height: 1.875;
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-blue);
   font-weight: 700;
   box-shadow: 0px 0.25rem 0.25rem #000026;
   border-radius: 0.25rem;
+  border-color: var(--color-blue);
   width: 12.4375rem;
   padding: 0.625rem 0;
 }
@@ -112,7 +121,6 @@ ul {
 .placeholder-ul {
   display: flex;
   justify-content: space-between;
-  /* margin-left: 12.5rem;*/
   list-style-type: none;
   height: 6.3125rem;
 }
@@ -132,20 +140,20 @@ ul {
   font-size: 0.875rem;
   line-height: 1.714;
   font-weight: 400;
-  color: #757575;
+  color: var(--color-grey2);
 }
 
 .address-grey {
-  color: #757575;
+  color: var(--color-grey2);
 }
 
 .address-white,
 .logo-studio {
-  color: #fff;
+  color: var(--color-white);
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .header {
@@ -154,7 +162,7 @@ ul {
 }
 
 .header-div {
-  background-color: #fff;
+  background-color: var(--color-white);
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -167,8 +175,8 @@ ul {
 }
 
 .buttons .button:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-blue);
 }
 
 .filters {
@@ -183,9 +191,8 @@ ul {
 }
 
 .portfolio-section {
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border: solid var(--color-grey1);
+  border-width: 0px 1px 1px;
 }
 
 .portfolio-hgroup {
@@ -203,11 +210,11 @@ ul {
   font-size: 1rem;
   line-height: 1.875;
   font-weight: 400;
-  color: #757575;
+  color: var(--color-grey2);
 }
 
 .ourteam {
-  background-color: #f5f4fa;
+  background-color: var(--color-white2) a;
   width: 100%;
 }
 
@@ -217,8 +224,9 @@ ul {
 }
 
 .ourteam-li {
-  background-color: #fff;
-  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #0000001f, 0px 2px 1px #0000001f;
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 3px var(--color-black2), 0px 1px 1px var(--color-black2),
+    0px 2px 1px var(--color-black2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,7 +267,7 @@ ul {
 .outeam-div2 {
   font-weight: 400;
   font-size: 1rem;
-  color: #757575;
+  color: var(--color-grey2);
   line-height: 1.19;
   padding: 0 0 1.875rem 0;
 }
@@ -269,6 +277,7 @@ ul {
   font-size: 0.875rem;
   line-height: 1.14;
   text-decoration: none;
+  color: var(--color-black);
 }
 
 .navigation-list {
@@ -291,7 +300,6 @@ ul {
 }
 
 .buttons {
-  display: inline;
   display: flex;
   gap: 0.5rem;
   padding-left: 19.375rem;
@@ -303,6 +311,9 @@ ul {
   font-size: 1rem;
   line-height: 1.625;
   padding: 0.375rem 1.375rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--color-white2);
 }
 
 .footer-div {
@@ -317,23 +328,23 @@ ul {
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color-grey3);
   width: 100%;
 }
 
 .footer .address-grey {
-  color: #fff9;
+  color: var(--color-white);
 }
 
 .highlight-a:visited {
-  color: #212121;
+  color: var(--color-black);
 }
 
 .highlight:focus,
 .highlight:hover,
 .address-grey:focus,
 .address-grey:hover {
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .portfolio-img {
